@@ -2,7 +2,7 @@ repository: Takshan/ssudock
 output: web
 topnav_title: ssudock
 site_title: ssudock
-company_name: @ssu 2021
+company_name: ssu
 description: A simple and easy to use python package for dokcing analysis.
 # Set to false to disable KaTeX math
 use_math: true
@@ -20,7 +20,7 @@ exclude:
   - .idea/
   - .gitignore
   - vendor
- 
+
 exclude: [vendor]
 
 highlighter: rouge
@@ -61,6 +61,6 @@ sidebars:
 
 plugins:
     - jekyll-remote-theme
-    
+
 remote_theme: fastai/nbdev-jekyll-theme
 baseurl: /ssudock/
